@@ -1,3 +1,69 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
 body {
-    background: rgb(89, 255, 0);
+    background: url("images/bgpattern.webp");
+}
+
+h1 {
+    font-family: "Honk", sans-serif;
+}
+h2 {
+    font-family: "Bungee Spice", sans-serif;
+}
+
+article img {
+    border-radius: 2em;
+    filter: blur(4px);
+    transition: filter 0.5s;
+}
+
+article img:hover {
+    filter: blur(0);
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+article p, 
+aside p {
+  font-weight: 200;
+  font-size: 1.25rem;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+
+    background: grey;
+    border-radius: 8px;
+    color: white;
+}
+
+a:hover {
+    transform: scale(1.25);
+    transition:
+        transform 0.5s;
+}
+
+a:active {
+    background: gray;
+    border-radius: 4px;
+    color: lightgray;
+    
+    min-width: 5rem;
+    margin: .5em;
+    padding: .25rem;
+    
+    text-align: center;
 }
