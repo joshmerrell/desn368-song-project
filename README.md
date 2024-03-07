@@ -1,14 +1,9 @@
-# Web Starter
+# DESN 368 Song Project
 
-> Computers are dumb. Humans make them smart.
+## Song: Alice's Restaurant Massacree by Arlo Guthrie
 
-Starter (boilerplate) for all future projects.
-
-## Why Does This Exist?
-* Don't start with nothing
-* Common boilerplate for web projects
-* I am a human being who makes mistakes
 
 ## Citations
 - [Google Fonts](https://fonts.google.com)
-- ...
+- [Alice's Restaurant Massacree on Youtube](https://www.youtube.com/watch?v=WaKIX6oaSLs)'
+- [Lyrics](https://www.songlyrics.com/arlo-guthrie/alice-s-restaurant-lyrics/)

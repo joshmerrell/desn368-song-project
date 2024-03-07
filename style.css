@@ -2,32 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
+:root {
+    --yellow-1: #fbd000;
+    --reddish: #db4000;
+}
+
 body {
-    background: url("images/bgpattern.webp");
+    background-color: var(--yellow-1);
+}
+
+main {
+    background-color: var(--reddish);
+    max-width: 1000px;
+}
+
+img {
+    max-width: 100%;
+    margin-inline: auto;
 }
 
 h1 {
     font-family: "Honk", sans-serif;
+    font-size: 4em;
+    text-align: center;
 }
 h2 {
     font-family: "Bungee Spice", sans-serif;
-}
-
-article img {
-    border-radius: 2em;
-    filter: blur(4px);
-    transition: filter 0.5s;
-}
-
-article img:hover {
-    filter: blur(0);
-}
-
-h1 {
-    font-size: 4rem;
-}
-h2 {
     font-size: 2rem;
+    text-align: center;
 }
 
 article p, 
