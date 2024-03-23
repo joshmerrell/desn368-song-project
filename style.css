@@ -11,13 +11,15 @@
 
 body {
     background-color: var(--yellow-1);
-    background-image: url("images/bgpattern.webp");
+    background-image: url("images/bgpattern.png");
     background-repeat: repeat;
     background-blend-mode: multiply;
 }
 
 main {
     background-color: var(--reddish);
+    background-image: url("images/bgpattern.png");
+    background-blend-mode: multiply;
     max-width: 1000px;
     margin-inline: auto;
     padding: 1em;
@@ -50,7 +52,8 @@ article {
 }
 
 figure {
-    background: white;
+    background: #FFFFFFD0;
+    border-radius: 1em;
     padding: 1em;
     margin: 2em;
     font-family: var(--noto-font);
