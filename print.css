@@ -1,5 +1,5 @@
 @media print {
-    audio, .youtube-player {
+    audio, .plyr {
         display: none;
     }
     body, figure {

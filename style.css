@@ -7,6 +7,9 @@
     --honk-font: "Honk", sans-serif;
     --bungee-font: sans-serif;
     --noto-font: "Noto Sans", sans-serif;
+    --plyr-audio-controls-background: var(--yellow-1);
+    --plyr-audio-progress-buffered-background: darkgray;
+    --plyr-color-main: var(--reddish);
 }
 
 body {
@@ -14,11 +17,6 @@ body {
     background-image: url("images/bgpattern.png");
     background-repeat: repeat;
     background-blend-mode: multiply;
-}
-
-.youtube-player {
-    width: 560px;
-    height: 315px;
 }
 
 main {
@@ -50,6 +48,10 @@ h2 {
 
 h1, h2 {
     text-align: center;
+}
+
+audio#player, div.plyr {
+    width: 80%;
 }
 
 article {

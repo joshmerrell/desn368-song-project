@@ -1,4 +1,4 @@
 // Check JS is Connected
 console.log('JS Connected');
 
-const player = new Plyr("#plyr-youtube");
+const player = new Plyr("audio#player");
