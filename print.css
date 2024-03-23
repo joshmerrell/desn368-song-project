@@ -1,0 +1,15 @@
+@media print {
+    audio {
+        display: none;
+    }
+    body, figure {
+        background: none;
+    }
+
+    img {
+        max-width: 50%;
+        height: auto;
+        display: block;
+        margin-inline: auto;
+    }
+}
