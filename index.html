@@ -12,10 +12,12 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- Stylesheet -->
+    <link rel="stylesheet" media="screen" href="https://cdn.plyr.io/3.7.8/plyr.css" />
     <link rel="stylesheet" media="screen" href="style.css">
     <link rel="stylesheet" media="print" href="print.css">
 
     <!-- Scripts -->
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
     <script src="script.js" defer></script>
     
     <title>Alice's Restaurant Massacree</title>
@@ -29,6 +31,19 @@
         width="400px" height="400px">
     <h1>Song: Alice's Restaurant Massacree</h1>
     <h2>Artist: Arlo Guthrie</h2>
+
+    <!-- iframe used because YouTube hates external music players that they don't control -->
+    <iframe 
+        class="youtube-player"
+        src="https://www.youtube-nocookie.com/embed/m57gzA2JCcM?si=1yMFifmb5rqUzG3l"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    <!-- <div class="youtube-player"
+        style="width: 800px; height: 800px;"
+        data-plyr-provider="youtube"
+        data-plyr-embed-id="m57gzA2JCcM"></div> -->
     <figure>
         <p>
             This song is called Alice's Restaurant, and it's about Alice, and the Restaurant.

@@ -1,5 +1,5 @@
 @media print {
-    audio {
+    audio, .youtube-player {
         display: none;
     }
     body, figure {
@@ -11,5 +11,8 @@
         height: auto;
         display: block;
         margin-inline: auto;
+    }
+    h1, h2 {
+        text-align: center;
     }
 }

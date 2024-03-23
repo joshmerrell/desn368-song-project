@@ -5,7 +5,7 @@
     --yellow-1: #fbd000;
     --reddish: #db4000;
     --honk-font: "Honk", sans-serif;
-    --bungie-font: "Bungie Spice", sans-serif;
+    --bungee-font: sans-serif;
     --noto-font: "Noto Sans", sans-serif;
 }
 
@@ -14,6 +14,11 @@ body {
     background-image: url("images/bgpattern.png");
     background-repeat: repeat;
     background-blend-mode: multiply;
+}
+
+.youtube-player {
+    width: 560px;
+    height: 315px;
 }
 
 main {
@@ -37,7 +42,9 @@ h1 {
     font-size: 4em;
 }
 h2 {
-    font-family: var(--bungie-font);
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
     font-size: 2rem;
 }
 
